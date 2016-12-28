@@ -640,7 +640,7 @@ public class Mat {
     {
 
         n_release(nativeObj);
-
+	n_delete(nativeObj);
         return;
     }
 
